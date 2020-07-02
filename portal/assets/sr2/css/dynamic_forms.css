@@ -1,0 +1,386 @@
+/**************************** DYMANAMIC FORMS **************************/
+
+a:active { background-color: transparent; }
+
+input, textarea, select {
+    background: #FFF;
+    border: 1px solid #ababab;
+    font-size: 12px;
+    margin: 0;
+    padding: 0 5px;
+    width:242px;
+}
+.box-attivazione.cont-box {
+    display: block;
+    float: right;
+    height: 162px !important;
+    margin-right: 5px !important;
+    margin-top: 5px !important;
+    padding: 0 !important;
+    width: 232px !important;
+}
+.box-attivazione a.vfa-green-button {
+    height: 27px;
+    padding-top: 5px;
+}
+.offersModule .imageClass.categoryNotExists{width:175px !important;}
+.offersModule .descriptionSection,.offersModule .categoryNotExists{float:left}
+.detailsTitleRow {
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    font-size: 15px;
+    margin: 0 22px;
+    position: relative;
+}
+.offersModule .detailsPlus {
+    float: right;
+    line-height: 1em;
+    padding-bottom: 0;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.offersModule .detailsPlus {
+    float: right;
+    line-height: 1em;
+    padding-bottom: 0;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.offersModule .plusMinus::after {
+    color: rgb(255, 0, 0);
+    content: "+";
+}
+.offersModule .plusMinus {
+    font-family: "Courier New",monospace;
+}
+.offersModule .detailsTitle {
+    display: inline-block;
+    line-height: 1em;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    pointer-events: none;
+    position: relative;
+}
+.detailsContainer .noDisplayArea {
+    display: none;
+}
+.expandIt {
+    color: rgb(255, 0, 0) !important;
+}
+.offersModule .detailsContainer {
+    margin-top: 0 !important;
+    margin-left: -1px;
+    width:951px !important;
+}
+.offersModule .detailsTitle {
+    color: rgb(51, 51, 51);
+}
+.offersModule #previewOffer  .descriptionClass {
+    padding-left: 5px !important;
+    padding-right:25px !important;
+    width:494px !important;
+}
+.offersModule #previewOffer  .containerOffer{height:174px !important}
+/*.offersModule #previewOffer  .descriptionSection {*/
+    /*height: 174px !important;*/
+/*}*/
+.offersModule .ex-open .plusMinus::after {
+    content: "-";
+}
+.offersModule .expandedArea .dett-viola{padding-left:0px !important;margin:22px !important}
+.offersModule .detailsTitleRow.ex-open {
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.box-attivazione .vfa-infoExtra{height:23px !important;margin-top:7px;}
+/*#previewOffer .box-attivazione .col-box{
+    margin: 50px auto 15px !important;
+    position: absolute;
+    right: 0;
+}
+#previewOffer .box-attivazione .cont-bottom {
+    margin-top: 90px;
+}*/
+.my_dynamic_form input{height: 24px;}
+.ie8 .my_dynamic_form input, .ie7 .my_dynamic_form input{height: 24px; line-height: 24px;}
+ .ie7 .my_dynamic_form INPUT {margin-left: 0 !important;}
+textarea{
+    max-height: 400px;
+    max-width: 400px;
+    padding: 5px;
+    box-sizing:content-box;
+    -ms-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box;
+}
+
+input:focus, textarea:focus, select:focus{
+    border-color: #333;
+}
+
+.sel_ric{
+    float:none;
+    width:auto;
+    border: 0 none;
+}
+
+.sel_ric.forms_big select{
+    width:254px;
+    background-position: 192px -206px;
+    -webkit-padding-end: 25px;
+    height: 26px;
+}
+
+.sel_ric.forms_date select{
+    width:82px;
+    background-position: 20px -206px;
+    -webkit-padding-end: 25px;
+}
+
+fieldset, legend, form, label, table, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    text-align: left;
+}
+
+fieldset {
+    float: left;
+    width: 100%;
+}
+
+.field {float:left}
+
+label, .form-label, legend {
+    float: left;
+    font-weight: 700;
+    padding: 0 25px 0 0;
+    text-align: right;
+    line-height: 25px;
+}
+
+label { cursor: pointer; }
+
+form-row{
+    clear: left;
+    float: left;
+    margin-bottom: 16px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    width: 100%;
+}
+
+.icon, .check-box label, .radio-box label{
+    background-image: url('http://www.vodafone.it/portal/assets/sr2/css/img/sprite_elements.png');
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.check-box label, .radio-box label{ background-image: url('http://www.vodafone.it/portal/assets/sr2/css/img/custom_check_radio.png'); }
+
+/**************************** CUSTOM CHECK-BOX **************************/
+
+.check-box input, .radio-box input {
+    border: 0;
+    cursor: pointer;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    left: -999em;
+    position: absolute;
+}
+
+.check-box label, .radio-box label{
+    text-align: left;
+    font-weight: normal;
+    padding: 0 20px 4px 25px;
+    line-height: 20px;
+    width: auto;
+    margin-bottom: 6px;
+}
+
+.radio-box label {
+    background-position: -18px -600px;
+}
+
+.radio-box input:checked+label {
+    background-position: -18px -900px;
+}
+
+.check-box label {
+    background-position: -19px 1px;
+}
+
+.check-box input:checked+label {
+    background-position: -19px -299px;
+}
+
+.landscape .radio-box, .landscape .check-box {
+    float: left;
+    margin: 0 37px 5px 0;
+    clear: both;
+}
+
+.landscape .radio-box label, .landscape .check-box label {margin-bottom: 0;}
+
+.radio-check .field .radio-box, .radio-check .field .check-box{
+    margin-top: 3px;
+}
+
+/**************************** END CUSTOM CHECK-BOX **************************/
+
+.dynamic-forms-table{margin: auto;font-size: 13px;}
+
+.tableWithPadding td, .my_dynamic_form td {
+    padding: 6px 0;
+    vertical-align: middle;
+}
+
+.dynamic-forms-table label.formLabel{width: 41%}
+.mod9Col .dynamic-forms-table label.formLabel{width: 35%}
+.dynamic-forms-table .field{width: 54%;}
+.mod9Col .dynamic-forms-table .field{width: 60%;}
+.dynamic-forms-table fieldset.radio-check .field div.check-box{margin-left:0px;}
+
+
+
+
+
+
+
+
+
+.star {
+    color: #D80000;
+    padding-left: 5px;
+}
+
+.starMand{
+    font-size: 13px;
+}
+
+.starMand .star {
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+.dynamic-forms-buttons{
+    border: 0;
+    float: left;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+img.ui-datepicker-trigger {
+   background: transparent !important;
+    margin-top: 1px;
+    margin-left: 8px;
+    position:absolute !important;
+    cursor: pointer;
+}
+
+img.ui-datepicker-trigger:focus ,
+img.ui-datepicker-trigger:hover {
+    background: transparent !important;
+    /*margin-top: -3px;*/
+}
+
+.custom-calendar input {
+    width:216px;
+}
+
+.formBoxError {
+    border: 1px solid #e60000!important;
+    font-weight: bold;
+}
+
+.ui-datepicker{
+    font-size: 13px !important;
+}
+
+
+
+/**************************** START RED/GREEN BOX IN DYMANAMIC FORMS **************************/
+
+
+.failure-icon, .success-icon {
+    width: 39px;
+    height: 39px;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.noteMessageBox { outline: 0; padding-left: 0; padding-right: 18px; }
+.mod12Col .noteMessageBox {padding:0;}
+.noteMessageBox .wrap {
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 0 20px;
+    padding: 13px 15px 0 60px;
+    position: relative;
+}
+.success { border-color: #a8b400;}
+.success-icon { background-position: -30px -552px; }
+.failure { border-color: #bd0000; }
+.failure-icon { background-position: -90px -552px; }
+
+.access {
+    left: -999em;
+    position: absolute;
+}
+
+.formBoxErrorHeader {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+.link-text{
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: none;
+    width: auto;
+    font-size: 13px;
+}
+
+.icon-arrow-r {
+    background-position: -145px -560px;
+    float: left;
+    height: 15px;
+    width: 12px;
+}
+
+/**************************** END RED/GREEN BOX IN DYMANAMIC FORMS **************************/
+
+.wrap.thank-you-message{
+    font-size: 13px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+/**************************** END DYMANAMIC FORMS **************************/
+
+.captchaImg{
+    margin-left: 35%; padding-left: 25px;
+}
+#captchaInput_id, .captchaInput_id {
+    height: 24px;
+}
+.sr2_captcha:after {
+    content:"";
+    display: block;
+    clear:both;
+}

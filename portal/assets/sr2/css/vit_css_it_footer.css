@@ -1,0 +1,249 @@
+.footer_fl-rt {
+	float:right;
+}
+
+.footer_wrapper {
+	margin-top:20px;
+	width:100%;
+}
+
+.footer {
+	width:960px;
+	margin:0 auto;
+}
+
+.footer_privati_row .footer_menu ul.footer_links {
+	background-image:url(http://www.vodafone.it/cs/groups/editorial/@pub/@vfxx/@all/@generic/documents/multimedia/footer-social_icons.png);
+	background-position:714px bottom;
+	background-repeat:no-repeat;
+	width:auto;
+	margin:0;
+	padding:0;
+}
+
+.footer_privati_row .footer_menu ul {
+	float:left;
+	margin:0;
+}
+
+.footer_privati_row .footer_menu ul.footer_links li {
+	font-size:12px;
+	padding:0 15px;
+}
+
+.footer_social {
+	background-image:url(http://www.vodafone.it/cs/groups/editorial/@pub/@vfxx/@all/@generic/documents/multimedia/footer-social_icons.png);
+	background-position:110px bottom;
+	background-repeat:no-repeat;
+	margin-right:0;
+	width:118px;
+	padding:1px;
+}
+
+.footer_privati_row .footer_menu ul.footer_social li a {
+	display:block;
+	height:40px;
+	width:29px;
+}
+
+.footer_social a.twitter {
+	background:url(http://www.vodafone.it/cs/groups/editorial/@pub/@vfxx/@all/@generic/documents/multimedia/footer-social_icons.png) no-repeat scroll 0 0 transparent;
+}
+
+.footer_social a.twitter:hover {
+	background-position:0 -80px;
+}
+
+.footer_social a.facebook {
+	background:url(http://www.vodafone.it/cs/groups/editorial/@pub/@vfxx/@all/@generic/documents/multimedia/footer-social_icons.png) no-repeat scroll -29px 0 transparent;
+}
+
+.footer_social a.facebook:hover {
+	background-position:-29px -80px;
+}
+
+.footer_social a.youtube {
+	background:url(http://www.vodafone.it/cs/groups/editorial/@pub/@vfxx/@all/@generic/documents/multimedia/footer-social_icons.png) no-repeat scroll -58px 0 transparent;
+}
+
+.footer_social a.youtube:hover {
+	background-position:-58px -80px;
+}
+
+.footer_social a.googleplus {
+	background:url(http://www.vodafone.it/cs/groups/editorial/@pub/@vfxx/@all/@generic/documents/multimedia/footer-social_icons.png) no-repeat scroll -87px 0 transparent;
+}
+
+.footer_social a.googleplus:hover {
+	background-position:-87px -80px;
+}
+
+a#usefulLinks {
+	color:#666;
+	display:block;
+	float:right;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:400;
+	height:42px;
+	overflow:hidden;
+	padding-left:10px;
+	width:100px;
+}
+
+.gradient {
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAABkCAYAAAC/zKGXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4MTM3NkJFOUI0QTYxMUUyOTFDRkQ0QUIwMUFGQTkzNSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo4MTM3NkJFQUI0QTYxMUUyOTFDRkQ0QUIwMUFGQTkzNSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjgxMzc2QkU3QjRBNjExRTI5MUNGRDRBQjAxQUZBOTM1IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjgxMzc2QkU4QjRBNjExRTI5MUNGRDRBQjAxQUZBOTM1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+OEggvwAAAFxJREFUeNrsl8sNACAIQ0HZf1VGwLhBDySmWM4vLXDg41VlSCwDox+MzHQIRFUv2K/IYM0A7knWDxUZrEfl2A+GqlaOslZ7NFJUtRb7h0fcqPOaARz1F0KKR4ABAMR6CFG0dE9RAAAAAElFTkSuQmCC) #fff repeat-x left bottom;
+	background-clip:border-box;
+	background-origin:padding-box;
+	background-size:100% 100%;
+}
+
+a#usefulLinks div {
+	position:relative;
+	float:left;
+	cursor:pointer;
+}
+
+.ie7 a#usefulLinks div {
+	position:absolute;
+}
+
+.pad3px {
+	padding-top:3px;
+}
+
+a#usefulLinks .arrow {
+	background:url(http://www.vodafone.it/cs/groups/editorial/@pub/@vfxx/@all/@generic/documents/multimedia/footer-social_icons.png) no-repeat scroll -122px -35px transparent;
+	display:block;
+	float:right;
+	height:10px;
+	position:absolute;
+	width:20px;
+	margin:16px 4px 0 80px;
+}
+
+#usefulLinksContainer {
+	padding-top:30px;
+}
+
+#usefulLinksContainer .group5x {
+	overflow:hidden;
+}
+
+#usefulLinksContainer .footerColumn {
+	color:#666;
+	float:left;
+	font-size:11px;
+	width:160px;
+	padding:0 0 0 30px;
+}
+
+#usefulLinksContainer .footerColumn h3 {
+	font-size:11px;
+	font-weight:700;
+}
+
+#usefulLinksContainer .footerColumn ul {
+	margin:5px 0 0;
+	padding:0;
+}
+
+#usefulLinksContainer .footerColumn ul li {
+	background:none repeat scroll 0 0 transparent;
+	list-style:none outside none;
+	padding:0;
+}
+
+#usefulLinksContainer .footerColumn ul li a {
+	color:#666;
+	font-size:11px;
+	font-weight:400;
+	line-height:20px;
+	text-decoration:none;
+}
+
+#usefulLinksContainer .footerFooter {
+	border-top:1px solid #ccc;
+	color:#666;
+	font-size:11px;
+	font-weight:700;
+	margin-top:15px;
+	padding:15px 0 15px 15px;
+}
+
+.footerFooter a {
+	color:#4f4f4f;
+	text-decoration:none;
+}
+
+.copyright {
+	clear:both;
+	color:#ccc;
+	font-size:10px;
+	font-weight:400;
+	padding:8px 0 15px 15px;
+}
+
+a#usefulLinks.open .arrow {
+	background-position:-122px -57px;
+}
+
+a#usefulLinks.open:hover .arrow {
+	background-position:-122px -67px;
+}
+
+a#usefulLinks:hover .arrow {
+	background-position:-122px -45px;
+}
+
+.footer_aziende_row .footer_menu ul.footer_links {
+	background-image:url(http://www.vodafone.it/cs/groups/editorial/@pub/@vfxx/@all/@generic/documents/multimedia/footer-social_icons.png);
+	background-position:830px bottom;
+	background-repeat:no-repeat;
+	width:auto;
+	margin:0;
+	padding:0;
+}
+
+.footer_aziende_row .footer_menu ul {
+	float:left;
+}
+
+.footer_aziende_row .footer_menu ul.footer_links li {
+	font-size:12px;
+	padding:0 20px;
+}
+
+.footer_privati_row,.footer_aziende_row {
+	width:954px;
+}
+
+.footer_privati_row .footer_menu,.footer_aziende_row .footer_menu {
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;
+	color:#666;
+	font-family:Vodafone;
+	line-height:40px;
+	min-height:42px;
+	width:954px;
+}
+
+.footer_privati_row .footer_menu ul li,.footer_aziende_row .footer_menu ul li {
+	background:none repeat scroll 0 center transparent;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+.footer_privati_row .footer_menu ul.footer_links li a,.footer_aziende_row .footer_menu ul.footer_links li a {
+	font-size:12px;
+	color:#666;
+	display:block;
+	font-family:vodafone_rgregular,Arial,Helvetica,sans-serif;
+	text-decoration:none;
+	padding:0;
+}
+
+.footer_privati_row .footer_menu ul.footer_links li a:hover,#usefulLinks:hover,#usefulLinksContainer .footerColumn ul li a:hover,.footerFooter a:hover,.footer_aziende_row .footer_menu ul.footer_links li a:hover {
+	color:#e60000;
+}
